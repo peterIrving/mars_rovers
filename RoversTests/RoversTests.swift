@@ -11,24 +11,30 @@ import XCTest
 
 class RoversTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testGetUrlReturnsNilWithNilRover() {
+        let rover: String? = nil
+        let url: URL? = NetworkingClient.shared.getURL(rover: rover)
+        XCTAssertNil(url)
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testGetURLReturnsProperURL() {
+        let rover = "curiosity"
+        let url: URL = NetworkingClient.shared.getURL(rover: rover)!
+        
+        XCTAssertEqual(url, URL(string:"https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1001&page=1&api_key=\(apiKey)"))
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testGetExpectedImage() {
+        let cell = RoverCell()
+        let image = cell.getImageName(roverName: "Curiosity")
+        XCTAssertEqual(UIImage(named: "resize_curiosity"), image)
+    }
+    
+    func testGetNilImageWithIncorrectRoverName() {
+        let cell = RoverCell()
+        let image = cell.getImageName(roverName: "Earl Scruggs")
+        XCTAssertNil(image)
     }
 
 }

@@ -16,6 +16,23 @@
 		9DA1504323788B7B00D13328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1504123788B7B00D13328 /* LaunchScreen.storyboard */; };
 		9DA1504E23788B7C00D13328 /* RoversTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1504D23788B7C00D13328 /* RoversTests.swift */; };
 		9DA1505923788BC000D13328 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1505823788BC000D13328 /* APIKey.swift */; };
+		9DA1506223788F6500D13328 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506123788F6500D13328 /* NetworkingClient.swift */; };
+		9DA1506323788F6500D13328 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506123788F6500D13328 /* NetworkingClient.swift */; };
+		9DA1506523788FA900D13328 /* RoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506423788FA900D13328 /* RoverCell.swift */; };
+		9DA1506623788FA900D13328 /* RoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506423788FA900D13328 /* RoverCell.swift */; };
+		9DA1506823788FC700D13328 /* RoverCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506723788FC700D13328 /* RoverCollectionVC.swift */; };
+		9DA1506923788FC700D13328 /* RoverCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506723788FC700D13328 /* RoverCollectionVC.swift */; };
+		9DA1506B23788FDF00D13328 /* LoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506A23788FDF00D13328 /* LoadingFooter.swift */; };
+		9DA1506C23788FDF00D13328 /* LoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506A23788FDF00D13328 /* LoadingFooter.swift */; };
+		9DA1506E23788FFB00D13328 /* EnlargedImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506D23788FFB00D13328 /* EnlargedImageVC.swift */; };
+		9DA1506F23788FFB00D13328 /* EnlargedImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1506D23788FFB00D13328 /* EnlargedImageVC.swift */; };
+		9DA150712378900F00D13328 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150702378900F00D13328 /* PhotoCell.swift */; };
+		9DA150722378900F00D13328 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150702378900F00D13328 /* PhotoCell.swift */; };
+		9DA150742378903500D13328 /* GalleryCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150732378903500D13328 /* GalleryCollectionVC.swift */; };
+		9DA150752378903500D13328 /* GalleryCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150732378903500D13328 /* GalleryCollectionVC.swift */; };
+		9DA150772378904F00D13328 /* FetchedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150762378904F00D13328 /* FetchedPage.swift */; };
+		9DA150782378904F00D13328 /* FetchedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA150762378904F00D13328 /* FetchedPage.swift */; };
+		9DA15079237890AF00D13328 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1505823788BC000D13328 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,14 @@
 		9DA1504D23788B7C00D13328 /* RoversTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversTests.swift; sourceTree = "<group>"; };
 		9DA1504F23788B7C00D13328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA1505823788BC000D13328 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKey.swift; path = ../APIKey.swift; sourceTree = "<group>"; };
+		9DA1506123788F6500D13328 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		9DA1506423788FA900D13328 /* RoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCell.swift; sourceTree = "<group>"; };
+		9DA1506723788FC700D13328 /* RoverCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCollectionVC.swift; sourceTree = "<group>"; };
+		9DA1506A23788FDF00D13328 /* LoadingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingFooter.swift; sourceTree = "<group>"; };
+		9DA1506D23788FFB00D13328 /* EnlargedImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedImageVC.swift; sourceTree = "<group>"; };
+		9DA150702378900F00D13328 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		9DA150732378903500D13328 /* GalleryCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionVC.swift; sourceTree = "<group>"; };
+		9DA150762378904F00D13328 /* FetchedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedPage.swift; sourceTree = "<group>"; };
 		AE9044BC77C9252A06F60394 /* Pods-RoversTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoversTests.release.xcconfig"; path = "Target Support Files/Pods-RoversTests/Pods-RoversTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +178,8 @@
 		9DA1505C23788E9D00D13328 /* Rovers */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1506423788FA900D13328 /* RoverCell.swift */,
+				9DA1506723788FC700D13328 /* RoverCollectionVC.swift */,
 			);
 			path = Rovers;
 			sourceTree = "<group>";
@@ -160,6 +187,10 @@
 		9DA1505E23788EA600D13328 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1506A23788FDF00D13328 /* LoadingFooter.swift */,
+				9DA1506D23788FFB00D13328 /* EnlargedImageVC.swift */,
+				9DA150702378900F00D13328 /* PhotoCell.swift */,
+				9DA150732378903500D13328 /* GalleryCollectionVC.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -168,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA1505823788BC000D13328 /* APIKey.swift */,
+				9DA1506123788F6500D13328 /* NetworkingClient.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -175,6 +207,7 @@
 		9DA1506023788EB800D13328 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9DA150762378904F00D13328 /* FetchedPage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -329,9 +362,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA1506223788F6500D13328 /* NetworkingClient.swift in Sources */,
+				9DA150712378900F00D13328 /* PhotoCell.swift in Sources */,
+				9DA1506523788FA900D13328 /* RoverCell.swift in Sources */,
+				9DA1506B23788FDF00D13328 /* LoadingFooter.swift in Sources */,
 				9DA1503B23788B7900D13328 /* ViewController.swift in Sources */,
+				9DA150742378903500D13328 /* GalleryCollectionVC.swift in Sources */,
 				9DA1503723788B7900D13328 /* AppDelegate.swift in Sources */,
 				9DA1505923788BC000D13328 /* APIKey.swift in Sources */,
+				9DA150772378904F00D13328 /* FetchedPage.swift in Sources */,
+				9DA1506E23788FFB00D13328 /* EnlargedImageVC.swift in Sources */,
+				9DA1506823788FC700D13328 /* RoverCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +380,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA150722378900F00D13328 /* PhotoCell.swift in Sources */,
+				9DA150752378903500D13328 /* GalleryCollectionVC.swift in Sources */,
+				9DA1506F23788FFB00D13328 /* EnlargedImageVC.swift in Sources */,
+				9DA1506323788F6500D13328 /* NetworkingClient.swift in Sources */,
+				9DA15079237890AF00D13328 /* APIKey.swift in Sources */,
+				9DA1506C23788FDF00D13328 /* LoadingFooter.swift in Sources */,
+				9DA1506923788FC700D13328 /* RoverCollectionVC.swift in Sources */,
+				9DA150782378904F00D13328 /* FetchedPage.swift in Sources */,
 				9DA1504E23788B7C00D13328 /* RoversTests.swift in Sources */,
+				9DA1506623788FA900D13328 /* RoverCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
