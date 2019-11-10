@@ -142,9 +142,7 @@
 				9DA1505A23788E8500D13328 /* Storyboards */,
 				9DA1503623788B7900D13328 /* AppDelegate.swift */,
 				9DA1503A23788B7900D13328 /* ViewController.swift */,
-				9DA1503C23788B7900D13328 /* Main.storyboard */,
 				9DA1503F23788B7B00D13328 /* Assets.xcassets */,
-				9DA1504123788B7B00D13328 /* LaunchScreen.storyboard */,
 				9DA1504423788B7B00D13328 /* Info.plist */,
 			);
 			path = Rovers;
@@ -162,6 +160,8 @@
 		9DA1505A23788E8500D13328 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1503C23788B7900D13328 /* Main.storyboard */,
+				9DA1504123788B7B00D13328 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
