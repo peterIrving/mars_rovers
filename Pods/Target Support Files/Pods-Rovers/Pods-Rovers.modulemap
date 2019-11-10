@@ -1,0 +1,6 @@
+module Pods_Rovers {
+  umbrella header "Pods-Rovers-umbrella.h"
+
+  export *
+  module * { export * }
+}

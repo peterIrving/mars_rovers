@@ -1,0 +1,6 @@
+module Pods_RoversTests {
+  umbrella header "Pods-RoversTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
